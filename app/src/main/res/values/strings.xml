@@ -21,4 +21,7 @@
     <string name="bnv_mentor">Mentor</string>
     <string name="bnv_akun">Akun</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
