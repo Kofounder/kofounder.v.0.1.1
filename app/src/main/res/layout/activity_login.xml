@@ -8,34 +8,53 @@
     android:gravity="center"
     tools:context=".LoginActivity">
 
-    <EditText
-        android:id="@+id/edt_email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/edt_email"
-        android:inputType="textEmailAddress"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        android:background="@drawable/edittext_background"/>
+    <!-- Email Edit Text -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:hint="@string/edt_email"
+            android:inputType="textEmailAddress"/>
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:id="@+id/edt_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/edt_password"
-        android:inputType="textPassword"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        android:background="@drawable/edittext_background"/>
+    <!-- Password Edit Text -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:hint="@string/edt_password"
+            android:inputType="textPassword"/>
+    </android.support.design.widget.TextInputLayout>
 
     <Button
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:text="@string/btn_masuk"
-        android:textColor="@color/colorPrimary"
-        android:background="@drawable/button_background"/>
+        android:textColor="@color/colorText"
+        android:background="@drawable/button_bg"/>
+
+    <TextView
+        android:id="@+id/txt_lupapass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lupa_sandi"
+        android:layout_marginTop="20dp"/>
 
     <TextView
         android:id="@+id/txt_signup"

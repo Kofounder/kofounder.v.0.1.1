@@ -7,4 +7,8 @@
 
     <color name="colorGreen">#4cab03</color>
     <color name="colorWindow">?android:attr/windowBackground</color>
+
+    <!-- Button -->
+    <color name="colorText">#ffffff</color>
+    <color name="colorButton">#32cd32</color>
 </resources>
